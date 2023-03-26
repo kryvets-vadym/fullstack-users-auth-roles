@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "install-dependencies": "cd server && npm i && cd ../ && cd client && npm i",
+    "start-server": "cd server && npm start",
+    "start-client": "cd client && npm run build && npm run start"
+  }
+}
