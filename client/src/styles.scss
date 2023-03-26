@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+$navbar-breakpoint: 480px !default;
+
+@import '../node_modules/bulma/bulma.sass';
+
+.active {
+  font-weight: bold;
+}
+
+.loader {
+  height: 80px;
+  width: 80px;
+}
+
+.loader-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
